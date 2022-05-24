@@ -66,6 +66,7 @@ function Board() {
     setSquare(Array(9).fill(null));
     setHasWon(false);
     setX(true);
+    setIsFull(false)
   }
   return (
     <div>
